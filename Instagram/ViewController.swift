@@ -18,27 +18,29 @@ class ViewController: UIViewController {
         
         
         
+      //insert
+//    let comment = PFObject(className: "Comment")
+//
+//    comment["text"] = "Nice shot!"
+//        comment.saveInBackground { (succes, error) in
+//            if (succes) {
+//                print("kayıt başarılı")
+//            } else  {
+//                print("kayıt başarısız")
+//            }
+//        }
         
         
-        let gameScore = PFObject(className:"GameScore")
-        gameScore["score"] = 1337
-        gameScore["playerName"] = "Sean Plott"
-        gameScore["cheatMode"] = false
-        gameScore.saveInBackground { (success, error) in
-            if (success) {
-                print ("başarılı!")
-            } else {
-                print("başarısız!!")
-            }
-        }
-
+        
+        //select
+//        let query = PFQuery(className: "Comment")
+//        query.getObjectInBackground(withId: "ZfEba2Qe8T") { (object, error) in
+//            if let comment = object {
+//                if let text = comment["text"]{
+//                    print(text)
+//                }
+//            }
+//        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
-
