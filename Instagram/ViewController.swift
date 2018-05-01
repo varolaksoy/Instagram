@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             if (success) {
                 print ("başarılı!")
             } else {
-                print("başarısız!")
+                print("başarısız!!")
             }
         }
 
