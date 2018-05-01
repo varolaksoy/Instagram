@@ -24,9 +24,9 @@ class ViewController: UIViewController {
 //    comment["text"] = "Nice shot!"
 //        comment.saveInBackground { (succes, error) in
 //            if (succes) {
-//                print("kayıt başarılı")
+//                print("kayıt başarılı!")
 //            } else  {
-//                print("kayıt başarısız")
+//                print("kayıt başarısız!")
 //            }
 //        }
         
